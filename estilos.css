@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+
+.azul{
+    background-color: aquamarine;
+   width: calc((100% / 3) - 30px);
+    height: 30%;
+}
+.verde{
+    background-color: chartreuse;
+    width: calc((100% / 3) - 30px);
+}
+.morada{
+    background-color:mediumorchid;
+    width: calc((100% / 3) - 30px);
+    
+} 
+.contenedor{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
