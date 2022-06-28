@@ -21,4 +21,41 @@
     display: flex;
     width:100%;
     justify-content: space-between;
+    flex-direction: column;
 }
+
+.imagen{
+    background-image: url("./samsung.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat ;
+    background-size: contain;
+}
+
+@media only screen and
+(min-width : 480px) {
+    .imagen{
+        background-image: url("./samsung.jpg");
+    }
+}
+
+
+
+
+    @media only screen and
+    (min-width : 481px) {
+        .imagen{
+            background-image: url("./tablet.webp");
+        }
+    }
+
+    @media only screen and
+    (min-width : 1200px) {
+        .imagen{
+            background-image: url("./portatil.jpg");
+        }
+    }
+    
+
+
+
